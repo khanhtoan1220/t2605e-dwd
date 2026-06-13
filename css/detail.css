@@ -1,0 +1,20 @@
+body {
+    background-color: pink;
+    background-image: url('../images/anh1.png');
+    background-size: cover;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Playwrite AU VIC Guides', serif;
+    text-align: justify;
+    /*center, left, right*/
+    font-weight: 400;
+    /*normal, bold, bolder, lighter, 100-900*/
+    text-decoration: none;
+    /*underline, overline, line-through, none*/
+    text-transform: none;
+    /*capitalize, uppercase, lowercase, none*/
+}
