@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asm3</title>
+    <link rel="stylesheet" href="css/asm3.css">
+</head>
+
+<body>
+    <div class="form-container">
+
+
+        <header class="section header">
+            <div class="form-header">
+                Employment Separation Form
+            </div>
+        </header>
+        <section class="section container">
+            <form class="form-body" action="#" method="get">
+
+                <div class="form-group name-group">
+                    <div class="name-field">
+                        <label for="first-name">Full Name</label>
+                        <input type="text" id="first-name" name="first_name">
+                        <span class="sub-label">First Name</span>
+                    </div>
+                    <div class="name-field">
+                        <label style="visibility: hidden;">Last Name</label>
+                        <input type="text" id="last-name" name="last_name">
+                        <span class="sub-label">Last Name</span>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="employee-id">Employee ID</label>
+                    <input type="text" id="employee-id" name="employee_id">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="personal-email">Personal Email</label>
+                    <input type="email" id="personal-email" name="personal_email">
+                </div>
+
+
+                <div class="form-group">
+                    <label for="last-working-date">Last Working Date</label>
+                    <input type="date" id="last-working-date" name="last_working_date">
+                    <span class="sub-label">dd-MMM-yyyy</span>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="reason">Reason for Departure</label>
+                    <input type="text" id="reason" name="reason_for_departure">
+                </div>
+
+
+                <div class="form-group">
+                    <label>Return of All Company Property</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="return_property" value="yes"> Yes
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="return_property" value="no"> No
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="return_property" value="other"> Other
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="exit-interview">Exit Interview Schedule</label>
+                    <input type="datetime-local" id="exit-interview" name="exit_interview_schedule">
+                    <span class="sub-label">dd-MMM-yyyy hh:mm AM/PM</span>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="comments">Comments/ Feedback</label>
+                    <textarea id="comments" name="comments_feedback"></textarea>
+                </div>
+
+
+                <div class="submit-btn-container">
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+
+            </form>
+
+        </section>
+    </div>
+
+</body>
+
+</html>
