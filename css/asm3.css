@@ -128,7 +128,7 @@ textarea:focus {
     background-color: #f4faff;
     cursor: pointer;
     font-size: 14px;
-    color: black;
+    color: #333333;
 }
 
 .radio-option input[type="radio"] {
